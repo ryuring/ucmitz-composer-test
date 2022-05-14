@@ -6,7 +6,7 @@ version: '3'
 services:
   bc5-db:
     platform: linux/x86_64
-    container_name: bc5-db
+    container_name: bc5-test-db
     image: mysql:8.0.28
     volumes:
       - ./volumes/mysql:/var/lib/mysql
@@ -20,7 +20,7 @@ services:
     command: mysqld --character-set-server=utf8 --collation-server=utf8_general_ci --innodb-use-native-aio=0 --sql-mode=NO_ENGINE_SUBSTITUTION --default_authentication_plugin=mysql_native_password
 
   bc5-php:
-    container_name: bc5-php
+    container_name: bc5-test-php
     image: baserproject/basercms:php8.1
     volumes:
       - ../:/var/www/shared:delegated
@@ -35,14 +35,14 @@ services:
     command: bash -c "/var/www/shared/docker/init.sh && apache2-foreground"
 
   bc5-smtp:
-    container_name: bc5-smtp
+    container_name: bc5-test-smtp
     image: schickling/mailcatcher
     ports:
       - "1080:1080"
       - "1025:1025"
 
   bc5-pma:
-    container_name: bc5-pma
+    container_name: bc5-test-pma
     image: phpmyadmin/phpmyadmin
     environment:
       - PMA_ARBITRARY=1
@@ -58,7 +58,7 @@ services:
 
   bc5-pg:
     image: postgres:10.5
-    container_name: bc5-pg
+    container_name: bc5-test-pg
     ports:
       - 5432:5432
     volumes:
@@ -73,7 +73,7 @@ services:
 
   bc5-pga:
     image: dpage/pgadmin4:3.3
-    container_name: bc5-pga
+    container_name: bc5-test-pga
     ports:
       - 10080:80
     volumes:
