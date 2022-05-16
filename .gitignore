@@ -57,3 +57,5 @@ webroot/files
 docker/volumes
 docker/pgadmin
 docker/phpmyadmin
+config/jwt.key
+config/jwt.pem
