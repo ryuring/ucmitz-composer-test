@@ -4,9 +4,9 @@ version: '3'
 #  db-volume: # windowsの場合はコメントを外す
 
 services:
-  bc5-db:
+  cake-db:
     # platform: linux/x86_64 # M1チップの場合はコメントを外す
-    container_name: bc5-db
+    container_name: cake-db
     image: mysql:8.0.28
     volumes:
       - ./volumes/mysql:/var/lib/mysql
@@ -19,66 +19,43 @@ services:
       MYSQL_DATABASE: "basercms"
     command: mysqld --character-set-server=utf8 --collation-server=utf8_general_ci --innodb-use-native-aio=0 --sql-mode=NO_ENGINE_SUBSTITUTION --default_authentication_plugin=mysql_native_password
 
-  bc5-php:
-    container_name: bc5-php
+  cake-php:
+    container_name: cake-php
     image: baserproject/basercms:php8.1
     volumes:
-      - ../:/var/www/shared:delegated
+      - ../:/var/www/html:delegated
+#      - ../:/var/www/shared:delegated
     environment:
       PHP_IDE_CONFIG: "serverName=localhost"
+      XDEBUG_MODE: "debug"
+      XDEBUG_SESSION: "1"
       COMPOSER_ALLOW_SUPERUSER: 1
     ports:
       - "80:80"
       - "443:443"
     depends_on:
-      - bc5-db
-    command: bash -c "/var/www/shared/docker/init.sh && apache2-foreground"
+      - cake-db
+    command: bash -c "/var/www/html/docker/bin/init.sh && apache2-foreground"
+#    command: bash -c "/var/www/shared/docker/bin/init_lsyncd.sh && /var/www/shared/docker/bin/init.sh && apache2-foreground"
 
-  bc5-smtp:
-    container_name: bc5-smtp
+  cake-smtp:
+    container_name: cake-smtp
     image: schickling/mailcatcher
     ports:
       - "1080:1080"
       - "1025:1025"
 
-  bc5-pma:
-    container_name: bc5-pma
+  cake-pma:
+    container_name: cake-pma
     image: phpmyadmin/phpmyadmin
     environment:
       - PMA_ARBITRARY=1
-      - PMA_HOST=bc5-db
+      - PMA_HOST=cake-db
       - PMA_USER=root
       - PMA_PASSWORD=root
     links:
-      - bc5-db
+      - cake-db
     ports:
      - 8080:80
     volumes:
        - ./phpmyadmin/sessions:/sessions
-
-  bc5-pg:
-    image: postgres:10.5
-    container_name: bc5-pg
-    ports:
-      - 5432:5432
-    volumes:
-      - ./volumes/postgres:/var/lib/postgres
-      - ./postgres/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
-    environment:
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: root
-      POSTGRES_INITDB_ARGS: "--encoding=UTF-8"
-    restart: always
-    user: root
-
-  bc5-pga:
-    image: dpage/pgadmin4:3.3
-    container_name: bc5-pga
-    ports:
-      - 10080:80
-    volumes:
-      - ./pgadmin:/var/lib/pgadmin/storage
-    environment:
-      PGADMIN_DEFAULT_EMAIL: root
-      PGADMIN_DEFAULT_PASSWORD: root
-    restart: always

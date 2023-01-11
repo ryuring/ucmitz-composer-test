@@ -59,3 +59,6 @@ docker/pgadmin
 docker/phpmyadmin
 config/jwt.key
 config/jwt.pem
+/docker/docker-compose.yml
+/config/install.php
+/docker_inited
