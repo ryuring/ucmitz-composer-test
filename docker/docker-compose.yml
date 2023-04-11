@@ -7,7 +7,7 @@ services:
   cake-db:
     # platform: linux/x86_64 # M1チップの場合はコメントを外す
     container_name: cake-db
-    image: mysql:8.0.28
+    image: mysql:8.0
     volumes:
       - ./volumes/mysql:/var/lib/mysql
       # - db-volume:/var/lib/mysql # windowsの場合はコメントを外し、上の行をコメントアウトする
@@ -47,7 +47,7 @@ services:
 
   cake-pma:
     container_name: cake-pma
-    image: phpmyadmin/phpmyadmin
+    image: phpmyadmin
     environment:
       - PMA_ARBITRARY=1
       - PMA_HOST=cake-db
