@@ -4,37 +4,37 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bede63331fc9fb9825355c59a75e6993",
+    "content-hash": "2ff49be980d8d3ecc0455c0b68dd2814",
     "packages": [
         {
             "name": "baserproject/baser-core",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/baserproject/baser-core.git",
-                "reference": "883884d0d8f0b74cbccf7b1a8561eee3838c0a00"
+                "reference": "a19a29351ea326d47708a45c4830a531dbd76b82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baserproject/baser-core/zipball/883884d0d8f0b74cbccf7b1a8561eee3838c0a00",
-                "reference": "883884d0d8f0b74cbccf7b1a8561eee3838c0a00",
+                "url": "https://api.github.com/repos/baserproject/baser-core/zipball/a19a29351ea326d47708a45c4830a531dbd76b82",
+                "reference": "a19a29351ea326d47708a45c4830a531dbd76b82",
                 "shasum": ""
             },
             "require": {
-                "baserproject/bc-admin-third": "^4.2",
-                "baserproject/bc-blog": "^4.2",
-                "baserproject/bc-content-link": "^4.2",
-                "baserproject/bc-custom-content": "^4.2",
-                "baserproject/bc-editor-template": "^4.2",
-                "baserproject/bc-favorite": "^4.2",
-                "baserproject/bc-front": "^4.2",
-                "baserproject/bc-installer": "^4.2",
-                "baserproject/bc-mail": "^4.2",
-                "baserproject/bc-search-index": "^4.2",
-                "baserproject/bc-theme-config": "^4.2",
-                "baserproject/bc-theme-file": "^4.2",
-                "baserproject/bc-uploader": "^4.2",
-                "baserproject/bc-widget-area": "^4.2",
+                "baserproject/bc-admin-third": "^5.0",
+                "baserproject/bc-blog": "^5.0",
+                "baserproject/bc-content-link": "^5.0",
+                "baserproject/bc-custom-content": "^5.0",
+                "baserproject/bc-editor-template": "^5.0",
+                "baserproject/bc-favorite": "^5.0",
+                "baserproject/bc-front": "^5.0",
+                "baserproject/bc-installer": "^5.0",
+                "baserproject/bc-mail": "^5.0",
+                "baserproject/bc-search-index": "^5.0",
+                "baserproject/bc-theme-config": "^5.0",
+                "baserproject/bc-theme-file": "^5.0",
+                "baserproject/bc-uploader": "^5.0",
+                "baserproject/bc-widget-area": "^5.0",
                 "cakephp/authentication": "^2.9",
                 "cakephp/cakephp": "4.4.*",
                 "cakephp/migrations": "^3.2",
@@ -45,7 +45,7 @@
                 "imo-tikuwa/cakephp-soft-delete": "^2.0",
                 "josegonzalez/dotenv": "^3.2",
                 "mobiledetect/mobiledetectlib": "^2.8",
-                "php": ">=8.1"
+                "php": ">=8.0"
             },
             "require-dev": {
                 "cakephp/bake": "^2.6",
@@ -68,26 +68,23 @@
             "description": "baserCMS plugin for CakePHP",
             "homepage": "https://basercms.net",
             "support": {
-                "source": "https://github.com/baserproject/baser-core/tree/4.2.0"
+                "source": "https://github.com/baserproject/baser-core/tree/5.0.0"
             },
-            "time": "2023-04-03T05:08:06+00:00"
+            "time": "2023-04-19T07:17:04+00:00"
         },
         {
             "name": "baserproject/bc-admin-third",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/baserproject/bc-admin-third.git",
-                "reference": "b310fb7bf797b22722eef3b9e5eb03b44099e11c"
+                "reference": "2c4dec181f0ad81cb2571476323bc7431612ab85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baserproject/bc-admin-third/zipball/b310fb7bf797b22722eef3b9e5eb03b44099e11c",
-                "reference": "b310fb7bf797b22722eef3b9e5eb03b44099e11c",
+                "url": "https://api.github.com/repos/baserproject/bc-admin-third/zipball/2c4dec181f0ad81cb2571476323bc7431612ab85",
+                "reference": "2c4dec181f0ad81cb2571476323bc7431612ab85",
                 "shasum": ""
-            },
-            "require": {
-                "php": ">=8.1"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -102,27 +99,23 @@
             "description": "theme for baserCMS",
             "homepage": "https://basercms.net",
             "support": {
-                "source": "https://github.com/baserproject/bc-admin-third/tree/4.2.0"
+                "source": "https://github.com/baserproject/bc-admin-third/tree/5.0.0"
             },
-            "time": "2023-04-02T15:20:37+00:00"
+            "time": "2023-04-19T07:17:03+00:00"
         },
         {
             "name": "baserproject/bc-blog",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/baserproject/bc-blog.git",
-                "reference": "630a41f21ec48a98a4ddf3d6f00661c5d0249977"
+                "reference": "fbe0614505c34bce924bdaae3d8dd1fc5e9e9afc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baserproject/bc-blog/zipball/630a41f21ec48a98a4ddf3d6f00661c5d0249977",
-                "reference": "630a41f21ec48a98a4ddf3d6f00661c5d0249977",
+                "url": "https://api.github.com/repos/baserproject/bc-blog/zipball/fbe0614505c34bce924bdaae3d8dd1fc5e9e9afc",
+                "reference": "fbe0614505c34bce924bdaae3d8dd1fc5e9e9afc",
                 "shasum": ""
-            },
-            "require": {
-                "baserproject/baser-core": "^4.2",
-                "php": ">=8.1"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -138,27 +131,23 @@
             "homepage": "https://basercms.net",
             "support": {
                 "issues": "https://github.com/baserproject/bc-blog/issues",
-                "source": "https://github.com/baserproject/bc-blog/tree/4.2.0"
+                "source": "https://github.com/baserproject/bc-blog/tree/5.0.0"
             },
-            "time": "2023-04-02T15:21:08+00:00"
+            "time": "2023-04-19T07:17:02+00:00"
         },
         {
             "name": "baserproject/bc-content-link",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/baserproject/bc-content-link.git",
-                "reference": "7961e00cbdafcd3db99a2feb6bd1b1aae76e5bfc"
+                "reference": "26aed043529ec03887e993a5729b881a6841cbcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baserproject/bc-content-link/zipball/7961e00cbdafcd3db99a2feb6bd1b1aae76e5bfc",
-                "reference": "7961e00cbdafcd3db99a2feb6bd1b1aae76e5bfc",
+                "url": "https://api.github.com/repos/baserproject/bc-content-link/zipball/26aed043529ec03887e993a5729b881a6841cbcd",
+                "reference": "26aed043529ec03887e993a5729b881a6841cbcd",
                 "shasum": ""
-            },
-            "require": {
-                "baserproject/baser-core": "^4.2",
-                "php": ">=8.1"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -174,27 +163,23 @@
             "homepage": "https://basercms.net",
             "support": {
                 "issues": "https://github.com/baserproject/bc-content-link/issues",
-                "source": "https://github.com/baserproject/bc-content-link/tree/4.2.0"
+                "source": "https://github.com/baserproject/bc-content-link/tree/5.0.0"
             },
-            "time": "2023-04-02T15:21:08+00:00"
+            "time": "2023-04-19T07:17:01+00:00"
         },
         {
             "name": "baserproject/bc-custom-content",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/baserproject/bc-custom-content.git",
-                "reference": "03527696ac6a17feb0b57c822a9b523631665e3c"
+                "reference": "63d3814ca0a42a22a7d0126f4791dbdac8801bfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baserproject/bc-custom-content/zipball/03527696ac6a17feb0b57c822a9b523631665e3c",
-                "reference": "03527696ac6a17feb0b57c822a9b523631665e3c",
+                "url": "https://api.github.com/repos/baserproject/bc-custom-content/zipball/63d3814ca0a42a22a7d0126f4791dbdac8801bfe",
+                "reference": "63d3814ca0a42a22a7d0126f4791dbdac8801bfe",
                 "shasum": ""
-            },
-            "require": {
-                "baserproject/baser-core": "^4.2",
-                "php": ">=8.1"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -210,27 +195,23 @@
             "homepage": "https://basercms.net",
             "support": {
                 "issues": "https://github.com/baserproject/bc-custom-content/issues",
-                "source": "https://github.com/baserproject/bc-custom-content/tree/4.2.0"
+                "source": "https://github.com/baserproject/bc-custom-content/tree/5.0.0"
             },
-            "time": "2023-04-02T15:21:23+00:00"
+            "time": "2023-04-19T07:17:06+00:00"
         },
         {
             "name": "baserproject/bc-editor-template",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/baserproject/bc-editor-template.git",
-                "reference": "b62dbeecd1f09f48344373f87ccc87697b59e249"
+                "reference": "5925cc0d217732356034d85a6aa7efadb716654d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baserproject/bc-editor-template/zipball/b62dbeecd1f09f48344373f87ccc87697b59e249",
-                "reference": "b62dbeecd1f09f48344373f87ccc87697b59e249",
+                "url": "https://api.github.com/repos/baserproject/bc-editor-template/zipball/5925cc0d217732356034d85a6aa7efadb716654d",
+                "reference": "5925cc0d217732356034d85a6aa7efadb716654d",
                 "shasum": ""
-            },
-            "require": {
-                "baserproject/baser-core": "^4.2",
-                "php": ">=8.1"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -246,27 +227,23 @@
             "homepage": "https://basercms.net",
             "support": {
                 "issues": "https://github.com/baserproject/bc-editor-template/issues",
-                "source": "https://github.com/baserproject/bc-editor-template/tree/4.2.0"
+                "source": "https://github.com/baserproject/bc-editor-template/tree/5.0.0"
             },
-            "time": "2023-04-02T15:22:20+00:00"
+            "time": "2023-04-19T07:17:04+00:00"
         },
         {
             "name": "baserproject/bc-favorite",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/baserproject/bc-favorite.git",
-                "reference": "0accfa6e1aba59325174cf290ad51822f6f292e3"
+                "reference": "00f4ba94362957d4292c6df47c4142094740911f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baserproject/bc-favorite/zipball/0accfa6e1aba59325174cf290ad51822f6f292e3",
-                "reference": "0accfa6e1aba59325174cf290ad51822f6f292e3",
+                "url": "https://api.github.com/repos/baserproject/bc-favorite/zipball/00f4ba94362957d4292c6df47c4142094740911f",
+                "reference": "00f4ba94362957d4292c6df47c4142094740911f",
                 "shasum": ""
-            },
-            "require": {
-                "baserproject/baser-core": "^4.2",
-                "php": ">=8.1"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -282,27 +259,23 @@
             "homepage": "https://basercms.net",
             "support": {
                 "issues": "https://github.com/baserproject/bc-favorite/issues",
-                "source": "https://github.com/baserproject/bc-favorite/tree/4.2.0"
+                "source": "https://github.com/baserproject/bc-favorite/tree/5.0.0"
             },
-            "time": "2023-04-02T15:21:23+00:00"
+            "time": "2023-04-17T12:28:57+00:00"
         },
         {
             "name": "baserproject/bc-front",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/baserproject/bc-front.git",
-                "reference": "8c8d7d502d8462f2b00d5ca93345a8da2d634442"
+                "reference": "4e25f8f7a1478fa230ea3a42f6aebd2cca9f5a71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baserproject/bc-front/zipball/8c8d7d502d8462f2b00d5ca93345a8da2d634442",
-                "reference": "8c8d7d502d8462f2b00d5ca93345a8da2d634442",
+                "url": "https://api.github.com/repos/baserproject/bc-front/zipball/4e25f8f7a1478fa230ea3a42f6aebd2cca9f5a71",
+                "reference": "4e25f8f7a1478fa230ea3a42f6aebd2cca9f5a71",
                 "shasum": ""
-            },
-            "require": {
-                "baserproject/baser-core": "^4.2",
-                "php": ">=8.1"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -317,27 +290,23 @@
             "description": "BcFront plugin for baserCMS",
             "homepage": "https://basercms.net",
             "support": {
-                "source": "https://github.com/baserproject/bc-front/tree/4.2.0"
+                "source": "https://github.com/baserproject/bc-front/tree/5.0.0"
             },
-            "time": "2023-04-02T15:21:24+00:00"
+            "time": "2023-04-17T12:28:56+00:00"
         },
         {
             "name": "baserproject/bc-installer",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/baserproject/bc-installer.git",
-                "reference": "b3f74ac39213ac0e3ab3425560327ec1ff94e3e7"
+                "reference": "185387113824195aeb5a7d45b61d83614e4fec7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baserproject/bc-installer/zipball/b3f74ac39213ac0e3ab3425560327ec1ff94e3e7",
-                "reference": "b3f74ac39213ac0e3ab3425560327ec1ff94e3e7",
+                "url": "https://api.github.com/repos/baserproject/bc-installer/zipball/185387113824195aeb5a7d45b61d83614e4fec7c",
+                "reference": "185387113824195aeb5a7d45b61d83614e4fec7c",
                 "shasum": ""
-            },
-            "require": {
-                "baserproject/baser-core": "^4.2",
-                "php": ">=8.1"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -353,27 +322,23 @@
             "homepage": "https://basercms.net",
             "support": {
                 "issues": "https://github.com/baserproject/bc-installer/issues",
-                "source": "https://github.com/baserproject/bc-installer/tree/4.2.0"
+                "source": "https://github.com/baserproject/bc-installer/tree/5.0.0"
             },
-            "time": "2023-04-02T15:21:24+00:00"
+            "time": "2023-04-19T07:17:03+00:00"
         },
         {
             "name": "baserproject/bc-mail",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/baserproject/bc-mail.git",
-                "reference": "ce5d21f03d496e4c9f0cad75e293cdefd98d244c"
+                "reference": "dff3c7ffba6977decc7a28a45176d8aafa35c957"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baserproject/bc-mail/zipball/ce5d21f03d496e4c9f0cad75e293cdefd98d244c",
-                "reference": "ce5d21f03d496e4c9f0cad75e293cdefd98d244c",
+                "url": "https://api.github.com/repos/baserproject/bc-mail/zipball/dff3c7ffba6977decc7a28a45176d8aafa35c957",
+                "reference": "dff3c7ffba6977decc7a28a45176d8aafa35c957",
                 "shasum": ""
-            },
-            "require": {
-                "baserproject/baser-core": "^4.2",
-                "php": ">=8.1"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -389,27 +354,23 @@
             "homepage": "https://basercms.net",
             "support": {
                 "issues": "https://github.com/baserproject/bc-mail/issues",
-                "source": "https://github.com/baserproject/bc-mail/tree/4.2.0"
+                "source": "https://github.com/baserproject/bc-mail/tree/5.0.0"
             },
-            "time": "2023-04-02T15:21:25+00:00"
+            "time": "2023-04-19T07:17:03+00:00"
         },
         {
             "name": "baserproject/bc-search-index",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/baserproject/bc-search-index.git",
-                "reference": "7f7e4af9af1bee195c3ecc04158605bf5c72f4b4"
+                "reference": "f372b6a84f13bd3d41516679f2b1ace3e6fbf08c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baserproject/bc-search-index/zipball/7f7e4af9af1bee195c3ecc04158605bf5c72f4b4",
-                "reference": "7f7e4af9af1bee195c3ecc04158605bf5c72f4b4",
+                "url": "https://api.github.com/repos/baserproject/bc-search-index/zipball/f372b6a84f13bd3d41516679f2b1ace3e6fbf08c",
+                "reference": "f372b6a84f13bd3d41516679f2b1ace3e6fbf08c",
                 "shasum": ""
-            },
-            "require": {
-                "baserproject/baser-core": "^4.2",
-                "php": ">=8.1"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -425,27 +386,23 @@
             "homepage": "https://basercms.net",
             "support": {
                 "issues": "https://github.com/baserproject/bc-search-index/issues",
-                "source": "https://github.com/baserproject/bc-search-index/tree/4.2.0"
+                "source": "https://github.com/baserproject/bc-search-index/tree/5.0.0"
             },
-            "time": "2023-04-02T15:21:24+00:00"
+            "time": "2023-04-19T07:17:04+00:00"
         },
         {
             "name": "baserproject/bc-theme-config",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/baserproject/bc-theme-config.git",
-                "reference": "239fae8a9c5ebef9305d9a951e4043c48adf759f"
+                "reference": "6830340812ee200b4d19a3328d66a381558b3c60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baserproject/bc-theme-config/zipball/239fae8a9c5ebef9305d9a951e4043c48adf759f",
-                "reference": "239fae8a9c5ebef9305d9a951e4043c48adf759f",
+                "url": "https://api.github.com/repos/baserproject/bc-theme-config/zipball/6830340812ee200b4d19a3328d66a381558b3c60",
+                "reference": "6830340812ee200b4d19a3328d66a381558b3c60",
                 "shasum": ""
-            },
-            "require": {
-                "baserproject/baser-core": "^4.2",
-                "php": ">=8.1"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -461,27 +418,23 @@
             "homepage": "https://basercms.net",
             "support": {
                 "issues": "https://github.com/baserproject/bc-theme-config/issues",
-                "source": "https://github.com/baserproject/bc-theme-config/tree/4.2.0"
+                "source": "https://github.com/baserproject/bc-theme-config/tree/5.0.0"
             },
-            "time": "2023-04-02T15:21:28+00:00"
+            "time": "2023-04-19T07:17:06+00:00"
         },
         {
             "name": "baserproject/bc-theme-file",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/baserproject/bc-theme-file.git",
-                "reference": "6150d07430243470295aa3fa4cd077b0efcc161b"
+                "reference": "a4ef4a72612405383bfd73b15c2253b569d50d23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baserproject/bc-theme-file/zipball/6150d07430243470295aa3fa4cd077b0efcc161b",
-                "reference": "6150d07430243470295aa3fa4cd077b0efcc161b",
+                "url": "https://api.github.com/repos/baserproject/bc-theme-file/zipball/a4ef4a72612405383bfd73b15c2253b569d50d23",
+                "reference": "a4ef4a72612405383bfd73b15c2253b569d50d23",
                 "shasum": ""
-            },
-            "require": {
-                "baserproject/baser-core": "^4.2",
-                "php": ">=8.1"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -497,27 +450,23 @@
             "homepage": "https://basercms.net",
             "support": {
                 "issues": "https://github.com/baserproject/bc-theme-file/issues",
-                "source": "https://github.com/baserproject/bc-theme-file/tree/4.2.0"
+                "source": "https://github.com/baserproject/bc-theme-file/tree/5.0.0"
             },
-            "time": "2023-04-02T15:21:29+00:00"
+            "time": "2023-04-19T07:17:02+00:00"
         },
         {
             "name": "baserproject/bc-uploader",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/baserproject/bc-uploader.git",
-                "reference": "cf2f0301ba2717bf79cd412aa3328ed28745ad7a"
+                "reference": "25370e7ae0812a1d233ca08c45ed6e8b9865bfcb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baserproject/bc-uploader/zipball/cf2f0301ba2717bf79cd412aa3328ed28745ad7a",
-                "reference": "cf2f0301ba2717bf79cd412aa3328ed28745ad7a",
+                "url": "https://api.github.com/repos/baserproject/bc-uploader/zipball/25370e7ae0812a1d233ca08c45ed6e8b9865bfcb",
+                "reference": "25370e7ae0812a1d233ca08c45ed6e8b9865bfcb",
                 "shasum": ""
-            },
-            "require": {
-                "baserproject/baser-core": "^4.2",
-                "php": ">=8.1"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -533,27 +482,23 @@
             "homepage": "https://basercms.net",
             "support": {
                 "issues": "https://github.com/baserproject/bc-uploader/issues",
-                "source": "https://github.com/baserproject/bc-uploader/tree/4.2.0"
+                "source": "https://github.com/baserproject/bc-uploader/tree/5.0.0"
             },
-            "time": "2023-04-02T15:21:26+00:00"
+            "time": "2023-04-19T07:17:06+00:00"
         },
         {
             "name": "baserproject/bc-widget-area",
-            "version": "4.2.0",
+            "version": "5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/baserproject/bc-widget-area.git",
-                "reference": "26b29e894da3e0c8cafb715e1ae2f174fb7bd2ca"
+                "reference": "4e1e5136f4d9026fd6d90b7172890ca05cbc9c64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/baserproject/bc-widget-area/zipball/26b29e894da3e0c8cafb715e1ae2f174fb7bd2ca",
-                "reference": "26b29e894da3e0c8cafb715e1ae2f174fb7bd2ca",
+                "url": "https://api.github.com/repos/baserproject/bc-widget-area/zipball/4e1e5136f4d9026fd6d90b7172890ca05cbc9c64",
+                "reference": "4e1e5136f4d9026fd6d90b7172890ca05cbc9c64",
                 "shasum": ""
-            },
-            "require": {
-                "baserproject/baser-core": "^4.2",
-                "php": ">=8.1"
             },
             "type": "cakephp-plugin",
             "autoload": {
@@ -569,9 +514,9 @@
             "homepage": "https://basercms.net",
             "support": {
                 "issues": "https://github.com/baserproject/bc-widget-area/issues",
-                "source": "https://github.com/baserproject/bc-widget-area/tree/4.2.0"
+                "source": "https://github.com/baserproject/bc-widget-area/tree/5.0.0"
             },
-            "time": "2023-04-02T15:21:31+00:00"
+            "time": "2023-04-17T12:28:58+00:00"
         },
         {
             "name": "cakephp/authentication",
@@ -643,16 +588,16 @@
         },
         {
             "name": "cakephp/cakephp",
-            "version": "4.4.12",
+            "version": "4.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "ecacba23d96a5e5052716bf19fe8b96c5549acf3"
+                "reference": "fa6de1f62cd4b1601ca01878457766807e5895d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/ecacba23d96a5e5052716bf19fe8b96c5549acf3",
-                "reference": "ecacba23d96a5e5052716bf19fe8b96c5549acf3",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/fa6de1f62cd4b1601ca01878457766807e5895d3",
+                "reference": "fa6de1f62cd4b1601ca01878457766807e5895d3",
                 "shasum": ""
             },
             "require": {
@@ -751,20 +696,20 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/cakephp"
             },
-            "time": "2023-03-24T01:27:09+00:00"
+            "time": "2023-04-23T02:36:23+00:00"
         },
         {
             "name": "cakephp/chronos",
-            "version": "2.3.2",
+            "version": "2.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/chronos.git",
-                "reference": "a21b7b633f483c4cf525d200219d200f551ee38b"
+                "reference": "b5d962b7ae615ec5dc053e1d5b57d561fa9a231c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/chronos/zipball/a21b7b633f483c4cf525d200219d200f551ee38b",
-                "reference": "a21b7b633f483c4cf525d200219d200f551ee38b",
+                "url": "https://api.github.com/repos/cakephp/chronos/zipball/b5d962b7ae615ec5dc053e1d5b57d561fa9a231c",
+                "reference": "b5d962b7ae615ec5dc053e1d5b57d561fa9a231c",
                 "shasum": ""
             },
             "require": {
@@ -809,7 +754,7 @@
                 "issues": "https://github.com/cakephp/chronos/issues",
                 "source": "https://github.com/cakephp/chronos"
             },
-            "time": "2022-11-08T02:17:04+00:00"
+            "time": "2023-04-19T15:05:35+00:00"
         },
         {
             "name": "cakephp/migrations",
@@ -1358,16 +1303,16 @@
         },
         {
             "name": "laminas/laminas-diactoros",
-            "version": "2.25.1",
+            "version": "2.25.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-diactoros.git",
-                "reference": "13f45e5ba09c9b27752247d3be186fc49c2ca3a5"
+                "reference": "9f3f4bf5b99c9538b6f1dbcc20f6fec357914f9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/13f45e5ba09c9b27752247d3be186fc49c2ca3a5",
-                "reference": "13f45e5ba09c9b27752247d3be186fc49c2ca3a5",
+                "url": "https://api.github.com/repos/laminas/laminas-diactoros/zipball/9f3f4bf5b99c9538b6f1dbcc20f6fec357914f9e",
+                "reference": "9f3f4bf5b99c9538b6f1dbcc20f6fec357914f9e",
                 "shasum": ""
             },
             "require": {
@@ -1451,7 +1396,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2023-04-08T00:31:34+00:00"
+            "time": "2023-04-17T15:44:17+00:00"
         },
         {
             "name": "laminas/laminas-httphandlerrunner",
